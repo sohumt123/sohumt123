@@ -30,7 +30,7 @@
 
 ### what i'm on rn
 
-- **[afterquery](https://www.afterquery.com/)** *(yc w25)* — building agent benchmarks + training a reward model on 10k+ preference annotations. shipped a data pipeline behind a meta deal. ppo, rlhf, the works.
+- **[afterquery](https://www.afterquery.com/)** *(yc w25)* — building agent benchmarks + training a reward model on 10k+ preference annotations. shipped a data pipeline behind a BIG(lol) deal. ppo, rlhf, the works.
 - **[cimez](https://cimez.vercel.app)** — pdf intelligence for pe due diligence. 4 firms use it, ~100 cims/month. faiss + rag + a lot of pymupdf suffering.
 - **query-adaptive token allocation** — tiny mlp/decision-tree controller that picks input + output budgets per query for black-box llm apis. cutting token spend ~30% at <2% quality loss so far.
 
@@ -54,8 +54,8 @@
 ### misc
 
 - coca-cola scholar (150 / 110k+) · regeneron isef finalist · 36 act · amc12b top 1% · y combinator startup school '26
-- yes the github stats card says i write a lot of python. yes i know.
-- there is a 15.65gb folder named `VSCode` rotting in my downloads since january 2025. i'm not going to do anything about it.
+
+
 
 ###
 
