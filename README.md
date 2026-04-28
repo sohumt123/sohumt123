@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Sohum Trivedi and I'm a Computer Science & Finance undergrad at UPenn (M&T), from Atlanta 📍</h2>
+<h2 align="left">sohum trivedi — cs + finance @ penn (m&t), atl 📍</h2>
 
 ###
 
@@ -8,53 +8,66 @@
 
 ###
 
-
-
-###
-
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="c++" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="30" alt="go" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgres" />
 </div>
 
 ###
 
-### 🧠 Current Projects:
-- **CIMez**: LLM-powered platform for automating private equity due diligence — processing PDFs, generating investment memos, and providing secure document chat.
-- **EchoMatch**: Audio-similarity engine that returns sonically similar tracks using CLAP embeddings and FAISS — 93% Top-5 recall on the Million Song Dataset.
+### what i'm on rn
 
-### 🧪 Research Experience:
-- **Princeton University (Puchalla Lab)**: Engineered $500 TIRF microscopy tool for fluorescence imaging (vs $50k commercial devices). Currently developing 3D image reconstruction software.
-- **GTRI**: Built a 94.7% accurate ML model for Cystic Fibrosis prediction; deployed GUI for clinicians to analyze biomarkers and forecast disease progression.
+- **[afterquery](https://www.afterquery.com/)** *(yc w25)* — building agent benchmarks + training a reward model on 10k+ preference annotations. shipped a data pipeline behind a meta deal. ppo, rlhf, the works.
+- **[cimez](https://cimez.vercel.app)** — pdf intelligence for pe due diligence. 4 firms use it, ~100 cims/month. faiss + rag + a lot of pymupdf suffering.
+- **query-adaptive token allocation** — tiny mlp/decision-tree controller that picks input + output budgets per query for black-box llm apis. cutting token spend ~30% at <2% quality loss so far.
 
-### 👥 Leadership:
-- **TechEase**: Founded a nonprofit serving 60,000+ seniors with digital literacy and device education via YMCA and county partnerships.
-- **IvyAcademy**: $77K+ revenue college consulting startup; now piloting a scholarship-based pro bono program for underserved students.
+### shipped
+
+- **[litellm pr #25208](https://github.com/BerriAI/litellm/pull/25208)** — caught a silent data-loss bug in their responses-api translation layer that was eating assistant text when tool calls were attached. multi-turn agents were quietly broken. wrote round-trip tests, sent the fix. 42k★ repo, used by 100k+ devs.
+- **distributed parameter server** *(c++ / grpc / protobuf)* — multi-worker training coordination with sync gradient agg, version control, fault recovery. 3.8× throughput over single-node. wrote the ml engine from scratch — manual forward/backward, softmax, cross-entropy, no torch.
+- **splashbi** — multi-agent nlp insight engine over enterprise kpis. role-aware retrieval, feedback loop, +28% relevance from a/b tests.
+
+### before that
+
+- **princeton (puchalla lab)** — built a $500 tirf microscope. commercial ones cost $50k. currently writing the 3d reconstruction software.
+- **gtri** — 94.7% accurate cf prediction model + clinician gui for biomarker analysis.
+- **techease** — nonprofit i started, ~60k seniors served via ymca + county partnerships.
+- **ivyacademy** — $77k+ college consulting startup; piloting a free tier for kids who can't pay.
+
+### stack
+
+`python` `c/c++` `go` `ts` `pytorch` `langchain` `faiss` `fastapi` `docker` `k8s` `grpc` `postgres` `aws/gcp` — the usual suspects.
+
+### misc
+
+- coca-cola scholar (150 / 110k+) · regeneron isef finalist · 36 act · amc12b top 1% · y combinator startup school '26
+- yes the github stats card says i write a lot of python. yes i know.
+- there is a 15.65gb folder named `VSCode` rotting in my downloads since january 2025. i'm not going to do anything about it.
 
 ###
 
 <div align="left">
   <a href="https://www.linkedin.com/in/sohumtrivedi/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin" />
   </a>
   <a href="mailto:sohumt@wharton.upenn.edu" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail" />
   </a>
   <a href="https://www.ivyacademyprep.com/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=IvyAcademy&logo=google-chrome&label=&color=0C9D58&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="ivy logo"  />
+    <img src="https://img.shields.io/static/v1?message=IvyAcademy&logo=google-chrome&label=&color=0C9D58&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="ivy" />
   </a>
 </div>
 
@@ -62,6 +75,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/sohumt123/sohumt123/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/sohumt123/sohumt123/output/snake.svg" alt="snake" />
 
 ###
