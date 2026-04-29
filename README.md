@@ -42,7 +42,7 @@
 - **princeton (puchalla lab)** — built a $500 tirf microscope. commercial ones cost $50k. currently writing the 3d reconstruction software.
 - **gtri** — 94.7% accurate cf prediction model + clinician gui for biomarker analysis.
 - **techease** — nonprofit i started, ~60k seniors served via ymca + county partnerships.
-- **ivyacademy** — $77k+ college consulting startup; piloting a free tier for kids who can't pay.
+- **ivyacademy** — $154k+ college consulting startup; piloting a free tier for kids who can't pay.
 
 ### stack
 
