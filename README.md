@@ -27,13 +27,13 @@
 
 ### what i'm on rn
 
-- **[afterquery](https://www.afterquery.com/)** *(yc w25)* — building agent benchmarks + training a reward model on 10k+ preference annotations. shipped a data pipeline behind a BIG(lol) deal. ppo, rlhf, the works.
+- **[afterquery](https://www.afterquery.com/)** *(yc w25)* — building agent benchmarks + training a reward model on 10k+ preference annotations. shipped a data pipeline behind a deal. ppo, rlhf, the works.
 - **[cimez](https://cimez.vercel.app)** — pdf intelligence for pe due diligence. 4 firms use it, ~100 cims/month. faiss + rag + a lot of pymupdf suffering.
 - **query-adaptive token allocation** — tiny mlp/decision-tree controller that picks input + output budgets per query for black-box llm apis. cutting token spend ~30% at <2% quality loss so far.
 
 ### shipped
 
-- **[litellm pr #25208](https://github.com/BerriAI/litellm/pull/25208)** — caught a silent data-loss bug in their responses-api translation layer that was eating assistant text when tool calls were attached. multi-turn agents were quietly broken. wrote round-trip tests, sent the fix. 42k★ repo, used by 100k+ devs.
+- **[litellm pr #25208]** — caught a silent data-loss bug in their responses-api translation layer that was eating assistant text when tool calls were attached. multi-turn agents were quietly broken. wrote round-trip tests, sent the fix. 42k★ repo, used by 100k+ devs.
 - **distributed parameter server** *(c++ / grpc / protobuf)* — multi-worker training coordination with sync gradient agg, version control, fault recovery. 3.8× throughput over single-node. wrote the ml engine from scratch — manual forward/backward, softmax, cross-entropy, no torch.
 - **splashbi** — multi-agent nlp insight engine over enterprise kpis. role-aware retrieval, feedback loop, +28% relevance from a/b tests.
 
