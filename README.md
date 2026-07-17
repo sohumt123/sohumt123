@@ -27,7 +27,7 @@
 
 ### stack
 
-`python` `c/c++` `go` `ts` `pytorch` `langchain` `faiss` `fastapi` `docker` `k8s` `grpc` `postgres` `aws/gcp` — the usual suspects.
+`python` `c/c++` `go` `ts` `pytorch` `langchain` `faiss` `fastapi` `docker` `k8s` `grpc` `postgres` `aws/gcp` 
 
 ### misc
 
