@@ -23,26 +23,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgres" />
 </div>
 
-###
 
-### what i'm on rn
-
-- **[afterquery](https://www.afterquery.com/)** *(yc w25)* — building agent benchmarks + training a reward model on 10k+ preference annotations. shipped a data pipeline behind a deal. ppo, rlhf, the works.
-- **[cimez](https://cimez.vercel.app)** — pdf intelligence for pe due diligence. 4 firms use it, ~100 cims/month. faiss + rag + a lot of pymupdf suffering.
-- **query-adaptive token allocation** — tiny mlp/decision-tree controller that picks input + output budgets per query for black-box llm apis. cutting token spend ~30% at <2% quality loss so far.
-
-### shipped
-
-- **[litellm pr #25208]** — caught a silent data-loss bug in their responses-api translation layer that was eating assistant text when tool calls were attached. multi-turn agents were quietly broken. wrote round-trip tests, sent the fix. 42k★ repo, used by 100k+ devs.
-- **distributed parameter server** *(c++ / grpc / protobuf)* — multi-worker training coordination with sync gradient agg, version control, fault recovery. 3.8× throughput over single-node. wrote the ml engine from scratch — manual forward/backward, softmax, cross-entropy, no torch.
-- **splashbi** — multi-agent nlp insight engine over enterprise kpis. role-aware retrieval, feedback loop, +28% relevance from a/b tests.
-
-### before that
-
-- **princeton (puchalla lab)** — built a $500 tirf microscope. commercial ones cost $50k. currently writing the 3d reconstruction software.
-- **gtri** — 94.7% accurate cf prediction model + clinician gui for biomarker analysis.
-- **techease** — nonprofit i started, ~60k seniors served via ymca + county partnerships.
-- **ivyacademy** — $154k+ college consulting startup; piloting a free tier for kids who can't pay.
 
 ### stack
 
@@ -50,7 +31,7 @@
 
 ### misc
 
-- coca-cola scholar (150 / 110k+) · regeneron isef finalist · 36 act · amc12b top 1% · y combinator startup school '26
+- coca-cola scholar (150 / 110k+) · regeneron isef finalist · 36 act · amc12b top 1% 
 
 
 
